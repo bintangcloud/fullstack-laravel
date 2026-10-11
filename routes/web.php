@@ -5,6 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/promo', [HomeController::class, 'promo'])->name('promo');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/booking', [HomeController::class, 'booking'])->name('booking');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

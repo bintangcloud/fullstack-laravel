@@ -30,9 +30,9 @@
                                     </div>
                                     <div class="flex space-x-4 mb-5 text-sm font-medium">
                                         <div class="flex-auto flex space-x-4">
-                                            <button class="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white" type="button">
+                                            <a href="{{ route('booking') }}" class="inline-flex items-center justify-center h-10 px-6 font-semibold rounded-full bg-violet-600 text-white hover:bg-violet-700">
                                                 Book Now
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                     <p class="text-sm text-slate-500">
